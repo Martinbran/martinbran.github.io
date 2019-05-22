@@ -7,9 +7,27 @@
 }
 
 .navbar-bar {
-  background-color: #16222A;
+  background-color: #182848;
 }
 
 .navbar-meno {
   color: white;
+
+}
+
+.nav-link {
+  color: white;
+  margin-left: 1%;
+}
+
+.jumbotron
+{
+  background-color: #182848;
+  color: white;
+}
+
+h1 
+{
+  color: #c43323;
+  /*color:  #c21500;*/
 }

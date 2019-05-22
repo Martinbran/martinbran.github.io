@@ -28,6 +28,21 @@
 
 h1 
 {
-  color: #c43323;
-  
+  color: #c43323;  
+}
+
+h2
+{
+  margin-left: 15px;
+}
+
+#experience
+{
+width: 50%;
+background-color: #c43323;
+};
+
+.subheading
+{
+  text-align: right;
 }

@@ -7,5 +7,31 @@ $(document).ready(function () {
 function handleSubmit(event) {
   event.preventDefault();
 
-  console.log('submit');
+  var msg = $('#msg').val();
+  var email = $('#email').val();
+
+  var data = {
+    to: "martinbrandobur@gmail.com",
+    subject: "CV kontakt",
+    body: msg,
+    from: email
+  }
+
+  $.ajax({
+    type: "POST",
+    url: "https://stored.azurewebsites.net/api/mail",
+    headers: {
+      "Authorization": 'Bearer ' + token
+    },
+    data: JSON.stringify(data),
+    contentType: "application/json"
+  })
+    .done(function () {
+      console.log('OK');
+      alert("Správa bola úspešne odoslaná");
+    })
+    .fail(function (error) {
+      console.log(error);
+      alert("Správu sa nepodarilo odoslať");
+    });
 }

@@ -36,13 +36,10 @@ h2
   margin-left: 15px;
 }
 
-#experience
+.experience-moje 
 {
 width: 50%;
 background-color: #c43323;
+border-radius: 5px; 
+margin-left: 0px;
 };
-
-.subheading
-{
-  text-align: right;
-}

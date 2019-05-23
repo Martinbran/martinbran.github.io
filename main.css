@@ -7,18 +7,40 @@
 }
 
 .navbar-bar {
-  background-color: #182848;
+  background-color: rgb(241, 236, 236);
+  
+  
 }
 
-.navbar-meno {
-  color: white;
+body
+{
+  background-color: rgb(252, 246, 246);
+}
 
+.profil
+{
+  height: 50px;
+  margin-top: 2%;
+}
+.navbar-meno {
+  color: black;
+  font-size: 30px;
 }
 
 .nav-link {
-  color: white;
-  margin-left: 1%;
+  color:#182848;
 }
+
+.navbar-toggler {
+  float: none;
+  margin: 0 auto;
+}
+
+.navbar-toggler-icon
+{
+  height: 30px;
+}
+
 
 .jumbotron
 {
@@ -36,7 +58,7 @@ h2
   margin-left: 15px;
 }
 
-.experience-moje 
+#experience-moje 
 {
 width: 50%;
 background-color: #c43323;
